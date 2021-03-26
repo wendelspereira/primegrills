@@ -5,12 +5,28 @@ export default function Home() {
     <div className={styles.container}>
       <section>
         <div className={styles.headerContainer}>
-          {/* colocar o header da pagina aqui */}
+          <div className={styles.btnAsideMenu}>
+            <img src="icon/btn-aside-menu.svg" alt="Menu" />
+          </div>
+          <div className={styles.logo}>
+            <img src="logo.png" alt="Logo" />
+          </div>
+          <div className={styles.wallpaper}>
+            <img src="wallpaper.png" alt="Wallpaper" />
+          </div>
+          <div className={styles.menuContainer}>
+            <div className={styles.menu}>
+                
 
-          <div className={styles.menu}>
-
+              <div className={styles.currentMenu}>
+                <span>PRIMEBURGUERS</span>
+              </div>
+             
+            
+            </div>
           </div>
         </div>
+
         <div className={styles.cardContainer}>
 
         </div>
