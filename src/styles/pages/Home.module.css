@@ -7,101 +7,21 @@
     flex-direction: column;
 }
 
+.headerContainer{
+    background: var(--background);
+    display: grid;
+    grid-template-areas: 
+       "btnAsideMenu   wallpaper"
+       "logo           wallpaper"
+       "menu           menu";
+       grid-template-columns: 2fr 3fr;
+       grid-template-rows: 3fr 8fr 1.5fr;
+   }
+
 .container section {
     flex: 1;
     display: grid;
     grid-template-rows: 1.13fr 1.58fr 0.27fr;
-}
-
-.headerContainer{
- background: var(--background);
- display: grid;
- width: 100%;
- height: 100%;
- grid-template-areas: 
-    "btnAsideMenu   wallpaper"
-    "logo           wallpaper"
-    "menu           menu";
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 3fr 8fr 1.5fr;
-}
-
-.logo {
-    height: 108px;
-    width: 108px;
-    grid-area: logo;
-    justify-content: center;
-    align-content: center;
-}
-
-.btnAsideMenu {
-    grid-area: btnAsideMenu;
-    align-self: center;
-    background: none;
-}
-
-.btnAsideMenu img {
-    width: 3rem;
-    height: 2rem;
-    padding: 0 0 0 1rem;
-
-}
-
-.wallpaper {
-    display: flex;
-    grid-area: wallpaper;
-    justify-content: flex-end;    
-}
-
-.wallpaper img {
-    width: auto;
-    height: 95%;
-}
-
-.menuContainer {
-    grid-area: menu;
-    display: flex;
-}
-
-.menu {
-    display: grid;
-}
-
-.currentMenu {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    /* position: absolute; */
-    background-color: var(--white);
-    height: 2rem;
-    width: 11.25rem;
-    border-radius: 6px;
-}
-
-.currentMenu span {
-    font-size: 1rem;
-    color: var(--title);
-    font-family: "Montserrat";
-    font-weight: 700;
-}
-
-.previewtMenu {
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    font-family: "Montserrat";
-    font-weight: 400;
-    /* padding: 0 6rem 0 6rem; */
-}
-
-.nextMenu {
-    color: var(--white);
-    display: flex;
-    align-items: center;
-    font-family: "Montserrat";
-    font-weight: 400;
-    /* padding: 0 6rem 0 6rem; */
 }
 
 .cardContainer{
