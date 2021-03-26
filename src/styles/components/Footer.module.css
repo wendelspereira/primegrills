@@ -15,8 +15,8 @@
 }
 
 .footerButton {
-    height: 45px;
-    width: 75px;
+    height: 7%;
+    width: 70%;
     background: transparent;
     align-items: center;
     border: 0;
@@ -52,8 +52,8 @@
 }
 
 .footerButton > div > div > div{
-    width: 13px;
-    height: 13px;
+    width: 0.813rem;
+    height: 0.813rem;
     margin-left: 5px;
     background: var(--white);
     border-radius: 50%;
@@ -65,4 +65,19 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 9px;
     color: var(--background);
+}
+
+@media(min-width: 1024px){
+    .footerButton {
+        width: 90%;
+    }
+    
+    .footerButton img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footerButton strong {
+        font-size: 11px;   
+    }
 }
