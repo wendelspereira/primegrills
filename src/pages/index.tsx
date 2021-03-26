@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import styles from "../styles/pages/Home.module.css";
 
 export default function Home() {
@@ -30,9 +31,9 @@ export default function Home() {
         <div className={styles.cardContainer}>
 
         </div>
-        <footer className={styles.containerFooter}>
-          {/* colocar o footer aqui */}
 
+        <footer>
+          <Footer />
         </footer>
       </section>
     </div>
