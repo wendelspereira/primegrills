@@ -13,7 +13,7 @@
 .card {
     flex: 1;
     max-height: 180px;
-    max-width: 132px;
+    max-width: 128px;
     min-width: 120px;
     padding: 0;
     display: flex;
@@ -34,8 +34,13 @@
     padding: 0 10px;
 }
 
+.card strong,
+.card p,
+.card h1 {
+    font-family: 'Montserrat', sans-serif;  
+}
+
 .card strong {
-    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: var(--title);
     text-transform: uppercase;
@@ -43,7 +48,6 @@
 
 .card p {
     transform: translateY(10%);
-    font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     color: var(--title);
 }
@@ -51,7 +55,6 @@
 .card h1 {
     padding: 10px 0;
     transform: translateY(50%);
-    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: var(--background);
     border-top: 2px solid var(--secundary);
