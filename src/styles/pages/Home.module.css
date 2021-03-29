@@ -6,18 +6,13 @@
     grid-template-rows: 30% 60% 10%;
 }
 
-.container section {
-    display: flex;
-    flex-direction: column;
-  
-}
-
 .container header {
     display: flex;
 }
 
-.container footer {
-    vertical-align: middle
+.container section {
+    display: flex;
+    flex-direction: column;
 }
 
 .container main{
@@ -30,14 +25,7 @@
     text-align: center;
 }
 
-.headerContainer{
-    background: var(--background);
-    display: grid;
-    grid-template-areas: 
-       "btnAsideMenu   wallpaper"
-       "logo           wallpaper"
-       "menu           menu";
-       grid-template-columns: 2fr 3fr;
-       grid-template-rows: 3fr 8fr 1.5fr;
-   }
+.container footer {
+    vertical-align: middle
+}
 

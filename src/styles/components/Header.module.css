@@ -1,35 +1,39 @@
-   .logo {
-       height: auto;
-       width: 108px;
-       grid-area: logo;
-       justify-content: center;
-       align-content: center;
-   }
-   
-   .btnAsideMenu {
-       grid-area: btnAsideMenu;
-       align-self: center;
-       background: none;
-   }
-   
-   .btnAsideMenu img {
-       width: 3rem;
-       height: 2rem;
-       padding: 0 0 0 1rem;
-   
-   }
-   
-   .wallpaper {
-       display: flex;
-       grid-area: wallpaper;
-       justify-content: flex-end;    
-   }
-   
-   .wallpaper img {
-       width: auto;
-       height: 95%;
-   }
-   
-   .menu {
-       grid-area: menu;
-   }
+.containerHeader {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    background-color: var(--background);
+}
+
+.containerHeader > div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.containerHeader .btnAsideMenu {
+    width: 15%;
+}
+
+.containerHeader .logo {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+
+.containerHeader .wallpaper {
+    width: 60%;
+    text-align: end;
+    
+}
+
+
+
+
