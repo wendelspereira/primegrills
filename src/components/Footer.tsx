@@ -4,7 +4,7 @@ import styles from '../styles/components/Footer.module.css';
 export function Footer() {
     return (
         <div className={styles.containerFooter}>
-            <div>
+            <div className={styles.containerButton}>
                 <Link href="/">
                     <button className={styles.footerButton}>
                         <div>
@@ -14,7 +14,7 @@ export function Footer() {
                     </button>
                 </Link>
             </div>
-            <div>
+            <div className={styles.containerButton}>
                 <Link href="/">
                     <button className={styles.footerButton}>
                         <div>
@@ -24,7 +24,7 @@ export function Footer() {
                     </button>
                 </Link>
             </div>
-            <div>
+            <div className={styles.containerButton}>
                 <Link href="/">
                     <button className={styles.footerButton}>
                         <div>

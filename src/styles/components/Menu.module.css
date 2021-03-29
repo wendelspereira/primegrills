@@ -1,0 +1,50 @@
+.menu {
+    max-height: 36px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.menu > div {
+    flex-direction: row;
+}
+
+.title {
+    height: 30px;
+    width: 48.26%;
+    border-radius: 10px;
+    background: var(--secundary);
+}
+
+.title p {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateY(30%);
+    color: var(--title);
+    transition: .5s;
+}
+
+.button {
+    width: 25.86%;
+}
+
+.menu > div button {
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.menu div button img {
+    width: 40px;
+    height: 35px;
+}
+
+@media(max-width: 280px){
+    .title p {
+        font-size: 13px;
+    }
+}
