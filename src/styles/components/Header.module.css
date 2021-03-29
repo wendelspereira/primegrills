@@ -12,26 +12,48 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     
 }
 
 .containerHeader .btnAsideMenu {
-    width: 15%;
+    /* width: 15%; */
+    padding: 1.2rem;
+
+}
+
+.containerHeader .btnAsideMenu img {
+    max-width: 36px;
+    min-width: 16px;
+    width: 90%;
+    height: auto;
 }
 
 .containerHeader .logo {
-    width: 25%;
+    display: flex;
+    /* width: 25%; */
     justify-content: center;
     align-items: center;
     vertical-align: middle;
 }
 
-
+.containerHeader .logo img {
+    max-width: 200px;
+    min-width: 60px;
+    width: 90%;
+    height: auto;
+}
 
 .containerHeader .wallpaper {
-    width: 60%;
+    /* width: 60%; */
     text-align: end;
-    
+}
+
+.containerHeader .wallpaper img {
+    max-width: 300px;
+    min-width: 100px;
+    width: 100%;
+    height: auto;
 }
 
 
