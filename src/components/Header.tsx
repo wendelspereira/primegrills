@@ -1,7 +1,5 @@
+
 import styles from '../styles/components/Header.module.css'
-import styles from '../styles/components/Header.module.css' 
-
-
 
 export function Header() {
     return (
