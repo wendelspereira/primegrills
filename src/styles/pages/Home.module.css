@@ -9,6 +9,7 @@
 .container section {
     display: flex;
     flex-direction: column;
+  
 }
 
 .container header {
@@ -16,13 +17,27 @@
 }
 
 .container footer {
-    vertical-align:middle
+    vertical-align: middle
 }
 
 .container main{
     height: 100%;
+    display: flex;
+    flex-direction: column;
     background: var(--secundary);
     overflow-y: scroll;
     border-radius: 30px 30px 0 0;
     text-align: center;
 }
+
+.headerContainer{
+    background: var(--background);
+    display: grid;
+    grid-template-areas: 
+       "btnAsideMenu   wallpaper"
+       "logo           wallpaper"
+       "menu           menu";
+       grid-template-columns: 2fr 3fr;
+       grid-template-rows: 3fr 8fr 1.5fr;
+   }
+
