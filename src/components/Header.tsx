@@ -1,7 +1,4 @@
 import styles from '../styles/components/Header.module.css'
-import styles from '../styles/components/Header.module.css' 
-
-
 
 export function Header() {
     return (
@@ -15,9 +12,7 @@ export function Header() {
             <div className={styles.wallpaper}>
                 <img src="wallpaper.png" alt="Wallpaper" />
             </div>
-            <div className={styles.menu}>
-                {/*Menu*/}
-            </div>
+           
         </>
     )
 }
