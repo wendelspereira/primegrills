@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap"
                         rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+
                 </Head>
                 <body>
                     {/* onde o next coloca a aplicação */}
